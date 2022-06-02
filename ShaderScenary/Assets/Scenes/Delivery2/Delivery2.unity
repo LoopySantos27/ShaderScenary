@@ -2268,6 +2268,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 699805733}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &703566458 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 4bd75e4d088e34dc9a1f0734dd125c7e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1782576847}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &750724687 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: b794cfa5158947e46bc60a458dc33d5a,
@@ -2712,7 +2718,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 93e9783ecb094204fa83c679aca10561, type: 3}
       propertyPath: m_Name
-      value: shark
+      value: SquadParent
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 93e9783ecb094204fa83c679aca10561, type: 3}
       propertyPath: m_RootOrder
@@ -5756,6 +5762,27 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: f5e58c7d0fe483e47acb099863bd3662, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 833fd7b70318e5c44b77a74441cf0091, type: 3}
+--- !u!1 &1544762399 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 93e9783ecb094204fa83c679aca10561,
+    type: 3}
+  m_PrefabInstance: {fileID: 835289992}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1544762400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1544762399}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7812c8a67e47de42aa6511fb428caef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1544762399}
+  child_Prefab: {fileID: 703566458}
+  children: []
 --- !u!1001 &1557644318
 PrefabInstance:
   m_ObjectHideFlags: 0
