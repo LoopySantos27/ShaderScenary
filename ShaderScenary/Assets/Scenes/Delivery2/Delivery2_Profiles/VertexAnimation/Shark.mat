@@ -7,20 +7,39 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 48 TRANSPARENT BLUE
-  m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
-  m_ShaderKeywords: _ALPHAPREMULTIPLY_ON _EMISSION
-  m_LightmapFlags: 6
+  m_Name: Shark
+  m_Shader: {fileID: -6465566751694194690, guid: ada19e0ef99306947801ee3c1e3af814,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3000
-  stringTagMap:
-    RenderType: Transparent
-  disabledShaderPasses:
-  - SHADOWCASTER
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - Texture2D_59d802767c174131894bee68e3768bdc:
+        m_Texture: {fileID: 2800000, guid: c78951e51b5c34b4ea4e7f9a072e3340, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_5bfceadc6bd64df6b8c697d7e37c85f5:
+        m_Texture: {fileID: 2800000, guid: 48343f5ff27d4864e8db9b13c7b3360d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_ab6e13b9f27840f88e6a064452b71701:
+        m_Texture: {fileID: 2800000, guid: dd3d690c58af44b4cba8b1e2a15b3b08, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_b80fc019af4c45ff97fc45c5bb32bff1:
+        m_Texture: {fileID: 2800000, guid: 0e2fd94ec0886284c8547ea92fc2d740, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_ba92f68f551349759ea6db44c8b6d50f:
+        m_Texture: {fileID: 2800000, guid: 723e4d4fc5ac73847976e01ea7a0a790, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BaseMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -78,41 +97,48 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - Vector1_0ed2b1f8298b459897d63975eee59c8a: 2.99
+    - Vector1_1115669addfc414a9e7d5115d92ddd50: 1.14
+    - Vector1_2d3b299395fe4c5ca524d80ad62e1dfa: 2.53
+    - Vector1_51842557ef8d45f18041cec1ab16dfe9: 4.31
+    - Vector1_7b75cb20e4a24961a967f8729a58cbc3: 0.15
+    - Vector1_cf06b461537d42999589c4c9e311d92c: 10.62
+    - Vector1_e82bb389a57c4a80b94c36501b4d751e: 0.032
+    - Vector1_fffdde94ad07410a9fbbf36ab77dd62a: 3.74
     - _AlphaClip: 0
-    - _Blend: 1
+    - _Blend: 0
     - _BumpScale: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
     - _Cull: 2
-    - _Cutoff: 0.506
+    - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
-    - _DstBlend: 10
+    - _DstBlend: 0
     - _EnvironmentReflections: 1
-    - _GlossMapScale: 1
+    - _GlossMapScale: 0
     - _Glossiness: 0
-    - _GlossyReflections: 1
+    - _GlossyReflections: 0
     - _Metallic: 0
-    - _Mode: 3
     - _OcclusionStrength: 1
-    - _Parallax: 0.02
+    - _Parallax: 0.005
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _Smoothness: 0
+    - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _Surface: 1
-    - _UVSec: 0
+    - _Surface: 0
     - _WorkflowMode: 1
-    - _ZWrite: 0
+    - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0.16033648, g: 0.62669885, b: 0.8000001, a: 0.484}
-    - _Color: {r: 0.16033648, g: 0.62669885, b: 0.8000001, a: 0.484}
+    - Vector3_bc6e81bb0db44e5b9a33c668931afc68: {r: 0.05, g: 0, b: 0, a: 0}
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
   m_BuildTextureStacks: []
---- !u!114 &2510728883115171336
+--- !u!114 &8480393018502969546
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
