@@ -243,8 +243,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6792212}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.62, y: 1.03, z: 2.8}
-  m_LocalScale: {x: 80, y: 1, z: 80}
+  m_LocalPosition: {x: -3.62, y: -0.9, z: 2.8}
+  m_LocalScale: {x: 80, y: 5.03, z: 80}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 15
@@ -3373,26 +3373,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Seagulls (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 2422458004299158528, guid: db5b0cfe84d85564a8784367c87e0aa3,
-        type: 3}
-      propertyPath: maxVelocity
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2674736846720428121, guid: db5b0cfe84d85564a8784367c87e0aa3,
-        type: 3}
-      propertyPath: radius
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2674736846720428121, guid: db5b0cfe84d85564a8784367c87e0aa3,
-        type: 3}
-      propertyPath: repulsionForce
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3738031874287864091, guid: db5b0cfe84d85564a8784367c87e0aa3,
-        type: 3}
-      propertyPath: radius
-      value: 3
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db5b0cfe84d85564a8784367c87e0aa3, type: 3}
 --- !u!1001 &767521583
@@ -3816,7 +3796,7 @@ PrefabInstance:
     - target: {fileID: 2300064, guid: 5b97a7a3863937b458829d45785c5890, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: a34704c8703fcea43beb7ee6472a5e95, type: 2}
+      objectReference: {fileID: 2100000, guid: 92c75d72adfc3474d9087113e0ff338d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b97a7a3863937b458829d45785c5890, type: 3}
 --- !u!1 &819255153
@@ -6119,7 +6099,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1292608779}
   m_LocalRotation: {x: -0, y: 0.73627114, z: -0, w: 0.6766867}
-  m_LocalPosition: {x: 6.26, y: 0.88, z: -21.98}
+  m_LocalPosition: {x: 0.8, y: 0.88, z: -16.14}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

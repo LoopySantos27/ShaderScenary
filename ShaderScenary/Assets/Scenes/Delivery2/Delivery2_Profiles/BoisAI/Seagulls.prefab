@@ -102,7 +102,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocity: {x: 1, y: 0, z: 0}
-  maxVelocity: 2
+  maxVelocity: 1.5
 --- !u!114 &3738031874287864091
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -115,7 +115,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a6227344ba00a7438ff53d5deee26b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radius: 10
+  radius: 3
 --- !u!114 &2674736846720428120
 MonoBehaviour:
   m_ObjectHideFlags: 0
