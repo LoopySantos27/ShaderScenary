@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: PbrLighting
-  m_Shader: {fileID: -6465566751694194690, guid: b92d4cf3d9e88a941824f8f07a02ac16,
+  m_Name: Sand
+  m_Shader: {fileID: -6465566751694194690, guid: a21a548bbc85ca34e8d00484c23e08bf,
     type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -20,6 +20,14 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - Texture2D_5ddf8b253093419b90d93356181f811d:
+        m_Texture: {fileID: 2800000, guid: 26cd155de145d0246a4b422bd4a985f1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_cde2314083274f75a0dec09173b1e32b:
+        m_Texture: {fileID: 2800000, guid: ce16bf49b9c67b04a99220ecb390eb6d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BaseMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -77,9 +85,6 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_33f30b50a62e4923b482acc709989ac7: 1.58
-    - Vector1_9cb9c9ce0fdc4fbf82e68e529964c9fa: 17.7
-    - Vector1_d0e091f89e704564bbe9317d7aa9023c: -0.16
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -107,14 +112,12 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Color_f9d02e3ca7c34a04bf8065847b1e33da: {r: 1, g: 0.6126152, b: 0.013207495,
-        a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
   m_BuildTextureStacks: []
---- !u!114 &4821866869401357935
+--- !u!114 &6879280739159685222
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
